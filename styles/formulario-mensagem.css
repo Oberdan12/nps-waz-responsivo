@@ -37,18 +37,31 @@
 
 }
 
+.botao__enviar:active{
+    background-color: darkcyan;
+    
+}
+
 @media screen and (min-width: 1024px){
 
     .formulario__mensagem__question{
         margin: 0 10.625rem 0 10.6265rem;
+
+    }
         
-    }   
-
-
     .formulario__question__campo{
         width: 41.937rem;
         height: 11.125rem;
        
     }
 
+}
+
+
+@media screen and (min-width: 1500px){
+
+    .formulario__mensagem__question{
+        margin: 0 20rem 0 20rem;
+    }
+        
 }

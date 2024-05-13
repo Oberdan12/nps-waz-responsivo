@@ -29,6 +29,16 @@
 
 
 }
+
+.secao__nota__score__item:hover{
+    background-color: darkcyan;
+    
+}
+
+.secao__nota__score__item:active{
+    background-color: darkcyan;
+    
+}
 .texto__score{
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -37,6 +47,8 @@
 .btn-0{
     background-color: #D52029;
 }
+
+
 
 .btn-1{
     background-color: #B72421;
