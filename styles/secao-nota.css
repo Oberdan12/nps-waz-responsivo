@@ -2,8 +2,11 @@
 
 .secao__nota__score__botao{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 2rem 0 2rem 0;
     gap: 0.125rem;
+   
 
 
 }
@@ -15,11 +18,13 @@
 
 .secao__nota__score__item{
     display: flex;
+    flex-wrap: wrap;
     width: 3.4rem;
     height: 3.4rem;
     border-radius: 0.3125rem;
     align-items: center;
     justify-content: center;
+    text-align: center;
 
 
 
