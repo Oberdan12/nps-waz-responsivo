@@ -78,3 +78,17 @@
     background-color: #66B44E;
 }
 
+@media screen and (min-width: 1024px) {
+
+
+    .secao__nota__score__item{
+        width: 4.375rem;
+        height: 4.375rem;
+        margin: 0.25px;
+    
+    }
+    .texto__score{
+       font-size: 2.1875rem;
+    }
+    
+}
