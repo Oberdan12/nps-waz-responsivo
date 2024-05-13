@@ -8,13 +8,13 @@
 
 .formulario__mensagem__question{
         font-family: 'Roboto Condensend', sans-serif;
-        font-size: 1.5rem;
+        font-size: 1rem;
         padding: 0 0 2.5rem 0;
 }
 
 .formulario__question__campo{
     width: 100%;
-    height: 10rem;
+    height: 5rem;
     border-radius: .625rem;
     padding: 0.5rem;
     margin: 0 10% 0 10%;
