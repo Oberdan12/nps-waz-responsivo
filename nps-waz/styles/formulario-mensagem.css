@@ -1,0 +1,38 @@
+.formulario{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formulario__mensagem__question{
+        font-family: 'Roboto Condensend', sans-serif;
+        font-size: 1.5rem;
+        padding: 0 0 2.5rem 0;
+}
+
+.formulario__question__campo{
+    width: 100%;
+    height: 7.5rem;
+    border-radius: .625rem;
+    padding: 0.5rem;
+
+}
+
+.botao__enviar{
+    margin: 2.31rem 0 2.31rem 0;
+    width: 16.875rem;
+    height: 4rem;
+    text-align: center;
+    vertical-align: center;
+    border-radius: 0.625rem;
+    color: #fff;
+    font-family: 'Roboto Condensend', sans-serif;
+    background-color: #ADCA38;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+
+}

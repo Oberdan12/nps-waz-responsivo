@@ -1,0 +1,22 @@
+footer{
+    background-color: black;
+    width: 100vw;
+    position: relative;
+    bottom: 0;
+    
+    
+}
+.icons__rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4.75rem;
+    width: 100%;
+    gap: 0.85rem
+
+}
+
+.texto__rodape{
+    color: #FED700;
+    font-family: 'Roboto', sans-serif;
+}

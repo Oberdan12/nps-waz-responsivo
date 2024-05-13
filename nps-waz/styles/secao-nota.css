@@ -1,0 +1,75 @@
+/*Estilo dos botões do score*/
+
+.secao__nota__score__botao{
+    display: flex;
+    padding: 2rem 0 2rem 0;
+    gap: 0.125rem;
+
+
+}
+
+.secao__nota__score__botao a{
+    text-decoration: none;
+}
+
+
+.secao__nota__score__item{
+    display: flex;
+    width: 3.4rem;
+    height: 3.4rem;
+    border-radius: 0.3125rem;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+.texto__score{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-0{
+    background-color: #D52029;
+}
+
+.btn-1{
+    background-color: #B72421;
+}
+
+.btn-2{
+    background-color: #E95223;
+}
+
+.btn-3{
+    background-color: #EA7129;
+}
+
+.btn-4{
+    background-color: #F6A726;
+}
+
+.btn-5{
+    background-color: #FDC729;
+}
+
+.btn-6{
+    background-color: #EBDB0A;
+}
+
+.btn-7{
+    background-color: #E5E044;
+}
+
+.btn-8{
+    background-color: #C2D234;
+}
+
+.btn-9{
+    background-color: #ADCA38;
+}
+
+.btn-10{
+    background-color: #66B44E;
+}
+
