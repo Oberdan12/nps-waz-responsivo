@@ -1,0 +1,38 @@
+.cabecalho__logo{
+    width: 100%;
+    height: auto;
+    background-color: #92C600;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+    padding: 0.5rem 0 0.5rem 0;
+    
+   
+
+
+}
+
+.titulo{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5rem 0 0.5rem 0;
+
+
+
+}
+
+.titulo__pesquisa{
+    color: #FED700;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
