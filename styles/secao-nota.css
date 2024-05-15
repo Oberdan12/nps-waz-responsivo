@@ -25,33 +25,44 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-
-
-
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border: 0;
 }
+
+
 
 .secao__nota__score__item:hover{
     background-color: darkcyan;
     
 }
 
-.secao__nota__score__item:active{
-    background-color: darkcyan;
+.button.active{
+    background-color: rgb(255, 255, 255);
+    color: darkcyan;
+    border: solid 2px darkcyan;
+    box-shadow: 2px 2px 4px 4px rgba(18, 78, 128, 0.404);
+   
+
     
 }
+
+/*
 .texto__score{
     color: white;
     font-family: 'Roboto', sans-serif;
-}
+}*/
 
 .btn-0{
-    background-color: #D52029;
+    background-color: #B72421;
 }
 
 
 
 .btn-1{
-    background-color: #B72421;
+    background-color: #D52029;
 }
 
 .btn-2{

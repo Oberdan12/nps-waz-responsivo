@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pesquisa de satisfação</title>
+    <meta name="description" content="Avalie sua experiência com a WAZ">
     <link rel="icon" type="image/x-icon" href="./assets/img/favicon.png">
     <link rel="stylesheet" href="style.css">
+    <script src="button-active.js"></script>
 </head>
 <body>
     <header class="cabecalho">
@@ -18,6 +20,67 @@
         </div>
     </header>
     <section class="secao__nota">
+        <h2 class="secao__nota__question">Em uma escala de 0 a 10, como você avalia sua experiência com a WAZ?</h2>
+
+
+        <form>
+            <div class="secao__nota__score__botao">
+                <input type="button" name ="btn0" id="btn0" class="secao__nota__score__item button btn-0" value="0">
+                <input type="button" name ="btn1" id="btn1" class="secao__nota__score__item button btn-1" value="1">
+                <input type="button" name ="btn2" id="btn2" class="secao__nota__score__item button btn-2" value="2">
+                <input type="button" name ="btn3" id="btn3" class="secao__nota__score__item button btn-3" value="3">
+                <input type="button" name ="btn4" id="btn4" class="secao__nota__score__item button btn-4" value="4">
+                <input type="button" name ="btn5" id="btn5" class="secao__nota__score__item button btn-5" value="5">
+                <input type="button" name ="btn6" id="btn6"  class="secao__nota__score__item button btn-6" value="6">
+                <input type="button" name ="btn7" id="btn7" class="secao__nota__score__item button btn-7" value="7">
+                <input type="button" name ="btn8" id="btn8" class="secao__nota__score__item button btn-8" value="8">
+                <input type="button" name ="btn9" id="btn9" class="secao__nota__score__item button btn-9" value="9">
+                <input type="button" name ="btn10" id="btn10" class="secao__nota__score__item button btn-10" value="10">
+
+            </div>     
+
+
+        <div class="formulario">
+            
+                <h2 class="formulario__mensagem__question">(Opcional) - Use o campo abaixo caso queria deixar algum comentário, elogio, sugestão ou reclamação!</h2>
+                <textarea class="formulario__question__campo" name="mensagem" placeholder="Escreva sua mensagem aqui"></textarea>
+                
+                <input type="submit" class="botao__enviar" value="Enviar" >
+           
+            
+        </div>
+
+    </form>
+
+          
+    </section>
+    <footer>
+        <ul class="icons__rodape">
+            <a href="https://www.youtube.com/c/wazoficial">
+                 <li><img src="./assets/img/youtube.png" alt="Acesse o youtube da WAZ"></li>
+            </a>
+            <a href="https://www.facebook.com/wazlive">
+                <li><img src="./assets/img/face.png" alt="Acesse o facebook da WAZ"></li>
+            </a>  
+                <a href="https://twitter.com/wazoficial">  
+            <li><img src="./assets/img/twiter.png" alt="Acesse o Twiter da WAZ"></li>
+            </a>
+            <a href="https://www.instagram.com/wazoficial/">
+                <li><img src="./assets/img/instagram.png" alt="Acesse o instagram da WAZ"></li>
+            </a>    
+            <li>
+                <span class="texto__rodape">fanáticos por tecnologia</span>
+            </li>        
+        </ul>
+    </footer>
+
+    
+
+
+
+
+
+    <!--
         <h2 class="secao__nota__question">Em uma escala de 0 a 10, como você avalia sua experiência com a WAZ?</h2>
         <div class="secao__nota__score">
            
@@ -67,34 +130,7 @@
                 </a>                  
             </div>
         </div>
-
-       
-
-        <div class="formulario">
-            
-                <h2 class="formulario__mensagem__question">(Opcional) - Use o campo abaixo caso queria deixar algum comentário, elogio, sugestão ou reclamação!</h2>
-
-                <textarea class="formulario__question__campo" name="formulario__mensagem" placeholder="Escreva sua mensagem aqui"></textarea>
-
-                <button type="submit" class="botao__enviar">Enviar pesquisa</button>
-            
-        </div>
-
-          
-    </section>
-    <footer>
-        <ul class="icons__rodape">
-            <li><img src="./assets/img/youtube.png" alt="Acesse o youtube da WAZ"></li>
-            <li><img src="./assets/img/face.png" alt="Acesse o facebook da WAZ"></li>
-            <li><img src="./assets/img/twiter.png" alt="Acesse o Twiter da WAZ"></li>
-            <li><img src="./assets/img/instagram.png" alt="Acesse o instagram da WAZ"></li>
-            <li>
-                <span class="texto__rodape">fanáticos por tecnologia</span>
-            </li>        
-        </ul>
-    </footer>
-
-    
+        -->
   
 
 </body>
