@@ -1,0 +1,67 @@
+.institucional{
+    background-color: #77A600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 2.72rem; 
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.2rem;
+    
+}
+
+
+.logo__waz__institucional{
+    padding-bottom: 0.5rem;
+
+}
+
+.coluna__1__texto{
+    padding-bottom: 0.5rem;
+}
+
+.institucional__anteidmento__titulo{
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+.institucional__sobre-a-waz{
+    padding: 1rem 0 0.8em 0;
+    font-size: 1rem;
+}
+
+.institucional__titulo--social{
+   font-size: 1rem; 
+   padding-bottom: 0.929rem;
+}
+.institucional__social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 0.7rem
+}
+
+.links__institucional{
+    text-decoration: none;
+    color:#fff
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    .institucional{
+        flex-direction: row;
+        text-align: left;
+        gap: 5rem
+    }
+
+    .coluna__1__texto{
+        width: 17rem;
+    }
+
+    .institucional__sobre-a-waz{
+        padding: 0 0 1rem 0;
+    }
+}
